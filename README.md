@@ -30,6 +30,9 @@ there is currently 0 datanode connected
  replace VM_IP with the actual ip you found out **
 
  ** now start some datanode **
+ ** if you are in active mode of namenode, DON'T QUIT **
+
+ start another terminal and run:
 
  docker run --name=datanode1 -d -h=datanode1 --link namenode:namenode notyy/docker_hadoop:2.4.1_cluster /etc/bootstrap.sh -dd
  docker run --name=datanode2 -d -h=datanode2 --link namenode:namenode notyy/docker_hadoop:2.4.1_cluster /etc/bootstrap.sh -dd
