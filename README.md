@@ -38,4 +38,4 @@ there is currently 0 datanode connected
  you can run as many datanodes as you want(and your machine support), remember to modify --name and -h
 
  now goto 50070 port, you should see you newly added datanodes are working,enjoy!
- =============================
+ =================================================================================
